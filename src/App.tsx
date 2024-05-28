@@ -1,5 +1,5 @@
 import './App.css'
-import { Features, Hero, Introduction, Navbar, HowItWorks, Footer } from './components'
+import { Features, Hero, Introduction, Navbar, HowItWorks, Benefits, Footer } from './components'
 
 function App() {
   
@@ -20,6 +20,9 @@ function App() {
     </div>
     <div>
       <HowItWorks/>
+    </div>
+    <div>
+      <Benefits/>
     </div>
     <div>
       <Footer/>

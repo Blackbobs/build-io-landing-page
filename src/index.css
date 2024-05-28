@@ -34,9 +34,10 @@
 .collab_bg{
   background-image: url("./assets/collab.jpeg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
+
 
 @keyframes logo_movement {
   0% {

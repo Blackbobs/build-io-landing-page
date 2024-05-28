@@ -6,7 +6,7 @@ const index: React.FC = () => {
        <div className='flex items-center justify-between p-3'>
        <div><h1 className='logo_gradient text-2xl font-bold'>build.io</h1></div>
        <div>
-        <p className='font-medium capitalize italic text-[14px]'>Developed & designed by Black Bobs</p>
+        <p className='hidden md:block font-medium capitalize italic text-[14px]'>Developed & designed by Black Bobs</p>
        </div>
        <div>
          <p className='capitalize font-medium'>copyrights &copy; {new Date().getFullYear()}</p>

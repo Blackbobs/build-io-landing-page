@@ -49,8 +49,8 @@ const index: React.FC = () => {
 
       </div>
       
-        <div className="collab_bg">
-          <div className="flex flex-col items-center gap-2 m-5">
+        <div>
+          <div className="flex flex-col items-center gap-2 my-5">
             <p className="text-[18px]">Techies Collaboration platform</p>
             <button className="">
               <a
