@@ -9,7 +9,7 @@ const index: React.FC = () => {
           platform
         </h1>
         <button className="m-3">
-          <a href="#!" className='bg-brand py-3 px-5 text-xl rounded-full capitalize text-primary font-medium inline-block'>start building today</a>
+          <a href="https://build-io-one.vercel.app/signup" className='bg-brand py-3 px-5 text-xl rounded-full capitalize text-primary font-medium inline-block'>start building today</a>
         </button>
         {/* <div className="my-3 text-center w-full flex flex-col items-center">
           <small className="m-2 capitalize font-medium text-[14px] inline-block">join our waitlist</small>

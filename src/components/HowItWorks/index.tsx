@@ -27,7 +27,7 @@ const index: React.FC = () => {
               <FaRegCircleCheck className="text-brand" size={25} />
             </i>{" "}
             Collaborate: Engage in real-time discussions, share files, and
-            coordinate atsk within your team's workspace
+            coordinate task within your team's workspace
           </li>
           <li className="bg-[#1e1e1e] p-5 rounded-lg shadow-lg flex items-center gap-3 text-[15px]">
             {" "}
@@ -54,7 +54,7 @@ const index: React.FC = () => {
             <p className="text-[18px]">Techies Collaboration platform</p>
             <button className="">
               <a
-                href="#!"
+               href="https://build-io-one.vercel.app/signup"
                 className="bg-brand py-3 px-5 text-[14px] rounded-full capitalize text-primary font-medium inline-block"
               >
                 start collaborating today
