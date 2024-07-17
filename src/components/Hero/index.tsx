@@ -1,5 +1,7 @@
 import React from "react";
 
+// https://mail.google.com/mail/u/0/#inbox
+
 const index: React.FC = () => {
   return (
     <section className="hero_bg w-full h-screen p-2">

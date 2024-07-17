@@ -1,5 +1,5 @@
 import './App.css'
-import { Features, Hero, Introduction, Navbar, HowItWorks, Benefits, Footer } from './components'
+import { Features, Hero, Introduction, Navbar, HowItWorks, Footer } from './components'
 
 function App() {
   
