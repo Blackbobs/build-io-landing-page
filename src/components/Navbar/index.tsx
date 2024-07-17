@@ -6,7 +6,7 @@ const index: React.FC = () => {
       <div><h1 className='logo_gradient text-2xl font-bold'>build.io</h1></div>
       <div>
         <button>
-          <a href="https://build-io-one.vercel.app/signup" className='bg-brand p-3 rounded-full capitalize text-primary font-medium'>start building</a>
+          <a href="https://build-io-one.vercel.app/signup" target="_blank" className='bg-brand p-3 rounded-full capitalize text-primary font-medium'>start building</a>
         </button>
       </div>
     </nav>

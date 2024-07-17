@@ -21,9 +21,9 @@ function App() {
     <div>
       <HowItWorks/>
     </div>
-    <div>
+    {/* <div>
       <Benefits/>
-    </div>
+    </div> */}
     <div>
       <Footer/>
     </div>

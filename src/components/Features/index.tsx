@@ -3,11 +3,9 @@ import { BsPersonWorkspace } from "react-icons/bs";
 import { VscDebugConsole, VscWorkspaceTrusted } from "react-icons/vsc";
 import { HiOutlineChatAlt2 } from "react-icons/hi";
 import { GoProjectSymlink } from "react-icons/go";
+import { LuBringToFront, LuBadgeCheck, LuGitFork } from "react-icons/lu";
 
-// interface = {
-//     title: string,
-//     text: string,
-// }
+
 
 const features = [
     {
@@ -35,20 +33,35 @@ const features = [
         text: "Rest assured knowing  your data is protected with robust security measures, while our platform scales with your team's needs.",
         icon: <VscWorkspaceTrusted size={50}/>
     },
+    {
+        title: "Enhanced Collaboration",
+        text: "Break  down silos and foster cross-disciplinary collaboration for better projects outcomes.",
+        icon: <LuGitFork size={50}/>
+    },
+    {
+        title: "Increased Productivity",
+        text: "Eliminate communication barriers and streamline workflows to boost efficiency.",
+        icon: <LuBadgeCheck size={50}/>
+    },
+    {
+        title: "Community Building",
+        text: "Build a vibrant community of tech professionals, fostering knowledge shairng and networking opportunities.",
+        icon: <LuBringToFront size={50}/>
+    }
 ]
 
 const index: React.FC = () => {
   return (
     <section className='p-5'>
-        <div className='flex flex-col gap-5 items-center md:flex-row'>
+        <div className='flex flex-col gap-5 items-center md:flex-row flex-wrap justify-center'>
           {features.map((feature, i) => (
-            <div key={i} className='bg-[#333] w-full h-[250px] md:w-[300px] rounded-lg p-2 shadow-lg'>
+            <div key={i} className='bg-[#333] w-full h-[250px] md:w-[300px] rounded-lg p-4 md:p-2 shadow-lg'>
                 <div>
                     <div className='flex items-center justify-center'>
-                        <i className='text-brand'>{feature.icon}</i>
+                        <i className='text-secondary'>{feature.icon}</i>
                     </div>
-                    <h2 className='text-center text-brand capitalize text-[18px] m-2 font-medium'>{feature.title}</h2>
-                    <p className='text-center mt-5 text-[14px]'>{feature.text}</p>
+                    <h2 className='text-center text-primary capitalize text-[18px] m-2 font-medium'>{feature.title}</h2>
+                    <p className='text-center mt-5 text-[14px] text-primary'>{feature.text}</p>
                 </div>
             </div>
           ))}
