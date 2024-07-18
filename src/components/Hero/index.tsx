@@ -31,9 +31,5 @@ const index: React.FC = () => {
   );
 };
 
-// https://app.us14.list-manage.com/subscribe/post
-// 352baf2487fb1f29cc5a617c5
-// a2f32abab7
-// MERGE0
 
 export default index;
